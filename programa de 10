@@ -68,9 +68,7 @@ main()
 		//Preguntar repetir
 		printf("\n");
 		printf("Continuar?S/N");
-		//repetir = getche();
-		scanf("%d", &repetir);
-		fflush(stdin);
+		repetir = getche();
 		printf("\n");
 		repetir = toupper(repetir);
 		while (repetir != 'S' && repetir != 'N')
