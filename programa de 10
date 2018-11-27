@@ -48,6 +48,7 @@ main()
 
 	do {
 		
+		
 		//Preguntar participante
 		sumapuntos = 0;
 		media = 0;
@@ -58,7 +59,9 @@ main()
 			sumapuntos += puntos[participante - 1][i];
 			media += puntos[participante - 1][i];
 		}
+		
 		media = media / tampruebas;
+		
 		printf("La suma total de los puntos del participante %d es %d\n", participante, sumapuntos);//Mostrar la suma de los puntos del participante
 		printf("La media de puntuacion del participante %d es %.2f\n", participante, media);//Mostrar la media de las pruebas del participante
 		getch();
@@ -78,7 +81,6 @@ main()
 			repetir = getche();
 			printf("\n");
 			repetir = toupper(repetir);
-
 		}
 		//F. preguntar repetir
 	} while (repetir == 'S');
