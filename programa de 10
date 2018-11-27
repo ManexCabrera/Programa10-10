@@ -14,12 +14,10 @@
 
 main()
 {
-
 	//Variables declaradas
 	int puntos[tampar][tampruebas], participante, sumapuntos;
 	float media;
 	char repetir;
-
 
 
 	//Cargar tabla aleatorio
